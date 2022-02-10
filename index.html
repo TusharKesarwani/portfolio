@@ -1,68 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="image/favicon.ico" type="image/png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-    <header id="animated_background">
-            <div class="container" id="nav-box">
-                <div class="nav" id="home">
-                    <div class="nav-elements btn"><a href="#home">Home</a></div>
-                    <div class="nav-elements btn"><a href="#about">About</a></div>
-                    <div class="nav-elements btn"><a href="#skills">Skills</a></div>
-                    <div class="nav-elements btn"><a href="#pro1">Projects</a></div>
-                    <div class="nav-elements btn"><a href="#connect">Connect</a></div>
-                </div>
-            </div>
-        <div id="animated_writing" class="typewriter typewriter-text">Welcome to Tushar's Portfolio...</div>
-    </header>
-    <section id="about" style="background-color: #07192F; margin: 0px; padding: 50px;">
-        <h3 style="text-align: center;">About me</h3>
-        <p style="background-color: #07192F; margin: 0px; padding: 0px;">Hi, I am Tushar Kesarwani .I am a tech enthusiast, quick learner, and observer with a bunch of achievements in my hands and lots of dreams in eyes. Right now I am pursuing my B.Tech in IT from MMMUT Gorakhpur. I am polishing my skill of web development and this website is also a project under this aim..</p>
-    </section>
-    <section id="skills" style="background-color: #07192F; margin: 0px; padding: 50px; padding-bottom: 80px;">
-        <h3 style="text-align: center;">Skills</h3>
-        <p style="background-color: #07192F; margin: 0px; padding: 0px;">Java || C++ || C || Python || HTML || CSS || JavaScript || Web Development || Bootstrap || Competitive Programming || Problem Solving || Data Structures || Algorithms || Object-Oriented Programming || CSS Flexbox || Git || GitHub</p>
-    </section>
-    <a href="https://TusharKesarwani.github.io/Calculator" target="_blank">
-        <div class="card bg-dark text-white" id="pro1" style="background-color: #07192F; margin: 0px; padding: 0px;">
-            <img src="image/calculator.png" class="card-img" alt="project image">
-            <div class="card-img-overlay">
-                <h5 class="card-title">Project 1 | Calculator</h5>
-            </div>
-        </div>
-    </a>
-    <section id="connect" style="text-align: center;color:aqua;background-color: #00081D; margin: 0px; padding: 40px;font-style: italic;font-family: cursive;font-display:inherit;">
-        <h3 style="margin:10px;">Connect with Me</h3>
-        <div class="social">
-            <a href="https://linkedin.com/in/tusharkesarwani44" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="https://www.facebook.com/tusharkesarwani44" target="_blank">
-                <i class="fa-brands fa-facebook"></i>
-            </a>
-            <a href="https://instagram.com/tusharkesarwani44" target="_blank">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="https://twitter.com/tushar_104" target="_blank">
-                <i class="fa-brands fa-twitter"></i>
-            </a>
-        </div>
-    </section>
-    <footer>
-        <h3 style="text-align: center;background-color: #0F080F; margin: 0px; padding: 30px;font-style: italic;font-family: cursive;font-display:inherit;">Copyright &copy; by Tushar Kesarwani</h3>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
-    <script src="index.js"></script>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tushar Kesarwani</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+		<link rel="stylesheet" href="index.css" />
+		<link rel="icon" href="image/favicon.ico" type="image/png" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+	<body>
+		<header id="animated_background">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-invisible" id="home">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#home">Tushar Kesarwani</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#home">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#about">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#skills">Skills</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#pro1">Projects</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#connect">Connect</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div id="intro" class="text-white text-center">Welcome to Tushar's Portfolio...</div>
+		</header>
+		<section id="about" class="text-white text-center font-20" style="background-color: #07192f; margin: 0px; padding: 50px">
+			<h3 style="text-align: center">About me</h3>
+			<p style="background-color: #07192f; margin: 0px; padding: 0px">Hi, I am Tushar Kesarwani .I am a tech enthusiast, quick learner, and observer with a bunch of achievements in my hands and lots of dreams in eyes. Right now I am pursuing my B.Tech in IT from MMMUT Gorakhpur. I am polishing my skill of web development and this website is also a project under this aim..</p>
+		</section>
+		<section id="skills" class="text-white text-center font-20" style="background-color: #07192f; margin: 0px; padding: 50px; padding-bottom: 80px">
+			<h3 style="text-align: center">Skills</h3>
+			<p style="background-color: #07192f; margin: 0px; padding: 0px">Java || C++ || C || Python || HTML || CSS || JavaScript || Web Development || Bootstrap || Competitive Programming || Problem Solving || Data Structures || Algorithms || Object-Oriented Programming || CSS Flexbox || Git || GitHub</p>
+		</section>
+		<a href="https://TusharKesarwani.github.io/Calculator" target="_blank">
+			<div class="card bg-dark text-white" id="pro1" style="background-color: #07192f; margin: 0px; padding: 0px">
+				<img src="image/calculator.png" class="card-img" alt="project image" />
+				<div class="card-img-overlay">
+					<h5 class="card-title fs-3">Project 1</h5>
+				</div>
+			</div>
+		</a>
+		<section id="connect" style="text-align: center; color: aqua; background-color: #00081d; margin: 0px; padding: 40px; font-style: italic; font-family: cursive; font-display: inherit">
+			<h3 style="margin: 10px">Connect with Me</h3>
+			<div class="social fs-1">
+				<a href="https://linkedin.com/in/tusharkesarwani44" target="_blank">
+					<i class="fa-brands fa-linkedin"></i>
+				</a>
+				<a href="https://www.facebook.com/tusharkesarwani44" target="_blank">
+					<i class="fa-brands fa-facebook"></i>
+				</a>
+				<a href="https://instagram.com/tusharkesarwani44" target="_blank">
+					<i class="fa-brands fa-instagram"></i>
+				</a>
+				<a href="https://twitter.com/tushar_104" target="_blank">
+					<i class="fa-brands fa-twitter"></i>
+				</a>
+			</div>
+		</section>
+		<footer>
+			<h3 class="text-white" style="text-align: center; background-color: #0f080f; margin: 0px; padding: 30px; font-style: italic; font-family: cursive; font-display: inherit">Copyright &copy; by Tushar Kesarwani</h3>
+		</footer>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+		<script src="index.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	</body>
 </html>
