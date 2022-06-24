@@ -4,6 +4,9 @@
 	scroll-behavior: smooth;
 	box-sizing: border-box;
 	font-family: "Viaoda Libre", cursive;
+}
+
+body{
 	overflow-x: hidden;
 }
 
